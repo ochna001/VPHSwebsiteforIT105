@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const links = document.querySelectorAll('.nav-links a');
     const sections = document.querySelectorAll('section');
 
-
     // Smooth scrolling
     links.forEach(link => {
         link.addEventListener('click', event => {
